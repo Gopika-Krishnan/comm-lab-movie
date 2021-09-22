@@ -22,19 +22,14 @@ h1{
     margin-left: 15%;
     margin-top: 2%;
     font-family:Copperplate;
-    
-
 }
 
 .contactHeading{
   font-size: 60px;
- 
   text-align:center;
   margin-left: 15%;
   margin-top: 7%;
   font-family:Copperplate;
-  
-
 }
 
 
@@ -44,7 +39,6 @@ ul {
   padding: 0;
   width: 25%;
   position: fixed;
-  /* height: 100%; */
   overflow: auto;
   }
 
@@ -91,20 +85,17 @@ li a {
   text-decoration: none;
   background-color: white; 
   border: 3px solid black; 
-  color: black; /* White text */
-  padding: 32px 24px; /*Some padding */
-  cursor: pointer; /* Pointer/hand icon */
+  color: black; 
+  padding: 32px 24px; 
+  cursor: pointer; 
   height: 100%;
-  width: 50px; /* Set a width if needed */
-  /* display: block; Make the buttons appear below each other */
-  border-radius: 50%;
+  width: 50px; 
+  border-radius: 50%;   /* circular button */
   font-weight: bold;
   margin-left: 5%;
   justify-content: center;
   display: flex; 
   margin-top:17%;
-  
-  
 }
 
 
@@ -117,27 +108,22 @@ li a {
 }
   
 .li:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
+  border-bottom: none; 
   }
   
   
-  /* Change the link color on hover */
+/* Change the button color on hover */
 li a:hover {
   background-color: yellow;
   
 }
 
 
-.video{
-    color:orange;
-}
 .demoVideo {
-    /* z-index: 20; */
     background-color: transparent;
     min-width: 70%;
     min-height: 70%;
     margin-left: 10%;
-    /* top: 30%; */
     border: 1px white solid;
     display: block;  
     transform: translate(-50%, -50%);
@@ -158,39 +144,11 @@ li a:hover {
 .MoneyBanner {
     font-family:Copperplate;
     font-size:2em;
-    /* font-variant:small-caps; */
     line-height:1.3em;
     color:#FFFFFF;
     background-color:#000000;
-    /* padding:1.5mm; */
     
     }
-
-.btn-group button {
-    background-color: gray; /* Green background */
-    border: 3px solid black; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 10%; /* Set a width if needed */
-    height: 20%;
-    display: block; /* Make the buttons appear below each other */
-    border-radius: 50%;
-    margin:10px;
-    font-weight: bold;
-    margin-left: 2%;
-    }
-    
-    .btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-    }
-    
-    /* Add a background color on hover */
-    .btn-group button:hover {
-    background-color: yellow;
-    color: black;
-    }
-
 
 .marquee-content{
 
