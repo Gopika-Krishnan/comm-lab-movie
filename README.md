@@ -34,8 +34,7 @@ But when I started coding, I realised that it looked too crowded and it felt lik
 movement in the website, but after experimenting, I've realized that it can be too much if we go overboard with the animations. So, I decided to stick with just the movement of the money banner. 
 
 What I've learnt from this process is that ideas may not go exactly as planned and so contuniously looking at how the ideas present in a website  is important, as a lot of the things I imagined in my mind did not look as good as 
-I pictured it in my head. Interms of coding, this was a huge learning curve for me, especially with JavaScript. I've used HTML before and combining CSS with that was a fun yet long process. 
-
+I pictured it in my head. Interms of coding, this was a huge learning curve for me, especially with JavaScript. I've used HTML before and combining CSS with that was a fun yet long process. For the future, I would love to work on the cast page. I'm thinking of working on image overlays where when you hover over the image, an image/video of money is overlaid on the image of the actor. 
 
 
 
