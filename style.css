@@ -1,10 +1,15 @@
 
-header { position: fixed; top: 0; left:0;}
-footer { position: fixed; bottom: 0; left:0;min-height: 400px;
+header {
+   position: fixed; 
+   top: 0; 
+   left:0;
+  }
+
+footer { 
+  position: fixed; bottom: 0; left:0;min-height: 400px;
   margin-bottom: 100px;
-  clear: both; } 
-
-
+  clear: both; 
+} 
 
 
 a{  
@@ -13,9 +18,6 @@ a{
     text-decoration: none;
     color: white; 
 }
-
-
-
 
 h1{
     font-size: 60px;
@@ -46,7 +48,6 @@ ul {
   padding: 0;
   width: 25%;
   position: fixed;
-  /* height: 100%; */
   overflow: auto;
   }
 
@@ -82,7 +83,6 @@ ul {
   font-size:22px;
    margin-left:25%;
   margin-top: 5%;
-
   margin-right: 10%;
 }
 
@@ -93,53 +93,39 @@ li a {
   text-decoration: none;
   background-color: white; 
   border: 3px solid black; 
-  color: black; /* White text */
-  padding: 32px 24px; /*Some padding */
-  cursor: pointer; /* Pointer/hand icon */
+  color: black; 
+  padding: 32px 24px;
+  cursor: pointer; 
   height: 100%;
-  width: 50px; /* Set a width if needed */
-  /* display: block; Make the buttons appear below each other */
-  border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;     /* circular buttons */
   font-weight: bold;
   margin-left: 5%;
   justify-content: center;
   display: flex; 
   margin-top:17%;
-  
-  
+
 }
 
 
 .yellow a{
-  
   background-color: yellow; 
-  
-  
- 
 }
   
 .li:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
   }
   
-  
-  /* Change the link color on hover */
 li a:hover {
   background-color: yellow;
   
 }
 
-
-.video{
-    color:orange;
-}
 .demoVideo {
-    /* z-index: 20; */
     background-color: transparent;
     min-width: 70%;
     min-height: 70%;
     margin-left: 10%;
-    /* top: 30%; */
     border: 1px white solid;
     display: block;  
     transform: translate(-50%, -50%);
@@ -160,38 +146,11 @@ li a:hover {
 .MoneyBanner {
     font-family:Copperplate;
     font-size:2em;
-    /* font-variant:small-caps; */
     line-height:1.3em;
     color:#FFFFFF;
-    background-color:#000000;
-    /* padding:1.5mm; */
-    
+    background-color:#000000;    
     }
 
-.btn-group button {
-    background-color: gray; /* Green background */
-    border: 3px solid black; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 10%; /* Set a width if needed */
-    height: 20%;
-    display: block; /* Make the buttons appear below each other */
-    border-radius: 50%;
-    margin:10px;
-    font-weight: bold;
-    margin-left: 2%;
-    }
-    
-    .btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-    }
-    
-    /* Add a background color on hover */
-    .btn-group button:hover {
-    background-color: yellow;
-    color: black;
-    }
 
 
 .marquee-content{
@@ -216,28 +175,16 @@ li a:hover {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  /* width:25%;
-  height:25%;
-  object-fit:contain;
-  margin-left:45%;
-  margin-top:0%;
-  text-align:center; */
-  /* position: relative; */
-
 }
 
 
 .slideImage{
-
-  
   width:25%;
   height:25%;
   object-fit:contain;
   margin-left:45%;
   margin-top:0%;
   text-align:center;
-  /* position: relative; */
-
 }
 
 
@@ -271,59 +218,6 @@ li a:hover {
   background-color: yellow;
 }
 
-/* Caption text */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-/* .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-} */
-
-/* The dots/bullets/indicators */
-/* .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-} */
-/* 
-.active, .dot:hover {
-  background-color: #717171;
-} */ 
-
-/* Fading animation
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-} */
 
 .social{
   font-family:Copperplate;
@@ -354,17 +248,8 @@ li a:hover {
 
 .fa-facebook {
   background: #3B5998;
-  /* color: white; */
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
 }
 
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
 
 .fa-linkedin {
   background: #007bb5;
@@ -373,10 +258,5 @@ li a:hover {
 
 .fa-youtube {
   background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
   color: white;
 }
