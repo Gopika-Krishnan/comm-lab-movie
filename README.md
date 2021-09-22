@@ -1,4 +1,4 @@
-### Hello there, This is the repository for the website made for Communications Lab 30MFF video! 
+### Hello there, here's the part of the interwebs with the files and documentation for my website made for Communications Lab 30MFF video! 
 
 Here's a brief documentation on how the process of creating the website went ✨ --->
 
