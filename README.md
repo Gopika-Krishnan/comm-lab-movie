@@ -2,7 +2,8 @@
 
 Here's a brief documentation on how the process of creating the website went ✨ --->
 
-Project Name: Money: What connects us together?
+Project Name: Money - What connects us together?
+
 Project Description: The main concept of the website was to showcase the film my group had made for the 30MFF in class. The theme of the film was money and thus, in
 this website, I try to incorporate different things to communicate this concept of the film. 
 
